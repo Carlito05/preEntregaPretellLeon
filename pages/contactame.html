@@ -25,44 +25,40 @@
     </header>
 
     <main>
-        <h2>Reservaciones</h2>
-
-        <form action="">
-          <fieldset>
-              
-              <legend>Envíanos tu reserva o cualquier consulta completando los campos.</legend>
-
-              <div>
-                  <label for="">Nombre</label>
-                  <input type="text" placeholder="Tu Nombre">
-              </div>
-              
-              <div>
-                  <label for="">Telefono</label>
-                  <input type="tel" placeholder="Tu Numero de Telefono"> 
-              </div>
-              
-              <div>
-                  <label for="">Correo</label>
-                  <input type="email" placeholder="Tu Email">
-              </div>
-              
-              <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates nisi commodi dicta excepturi repudiandae quos eius laudantium at alias.
-                </p>
-                  <label for="">Mensaje</label>
-                  <textarea name="" id=""></textarea>
-              </div>
-              
-              <div>
-                  <input type="submit" value="Enviar">
-              </div>
-
-          </fieldset>
+        <h2 class="text-center">Reservaciones</h2>
+    
+        <form action="" class="container bg-dark p-4 ">
+            <fieldset class="border p-4">
+                <legend class="w-auto text-white">Envíanos tu reserva o cualquier consulta completando los campos.</legend>
+    
+                <div class="mb-3">
+                    <label for="nombre" class="form-label text-white">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="telefono" class="form-label text-white">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Tu Número de Teléfono">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="correo" class="form-label text-white">Correo</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Tu Email">
+                </div>
+    
+                <div class="mb-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates nisi commodi dicta excepturi repudiandae quos eius laudantium at alias.</p>
+                    <label for="mensaje" class="form-label text-white">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" rows="4"></textarea>
+                </div>
+    
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </fieldset>
         </form>
-
-  </section>
     </main>
+    
 
     <footer>
         <div>
