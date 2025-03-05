@@ -69,10 +69,6 @@ nav ul li a img {
     object-fit: contain;
 }
 
-.carousel-indicators{
-    background-color: ;
-}
-
 .card {
     min-height: 300px;
 }
@@ -84,7 +80,7 @@ footer {
     color: white;
     padding: 2rem 0;
     text-align: center;
-    margin-top: auto; /* Esto asegura que el footer se mantenga abajo */
+    margin-top: auto;
 }
 
 footer div {
